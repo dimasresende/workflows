@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-imagemin-pngcrush' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'gulp-imagemin-pngcrush', null ]
+6 verbose cache add name=undefined spec="gulp-imagemin-pngcrush" args=["gulp-imagemin-pngcrush",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp-imagemin-pngcrush',
+7 verbose parsed url   path: 'gulp-imagemin-pngcrush',
+7 verbose parsed url   href: 'gulp-imagemin-pngcrush' }
+8 silly lockFile 8897bab2-gulp-imagemin-pngcrush gulp-imagemin-pngcrush
+9 verbose lock gulp-imagemin-pngcrush C:\Users\Dimas\AppData\Roaming\npm-cache\8897bab2-gulp-imagemin-pngcrush.lock
+10 silly lockFile 8897bab2-gulp-imagemin-pngcrush gulp-imagemin-pngcrush
+11 silly lockFile 8897bab2-gulp-imagemin-pngcrush gulp-imagemin-pngcrush
+12 verbose addNamed [ 'gulp-imagemin-pngcrush', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 1a290088-gulp-imagemin-pngcrush gulp-imagemin-pngcrush@
+15 verbose lock gulp-imagemin-pngcrush@ C:\Users\Dimas\AppData\Roaming\npm-cache\1a290088-gulp-imagemin-pngcrush.lock
+16 silly addNameRange { name: 'gulp-imagemin-pngcrush', range: '*', hasData: false }
+17 verbose request where is /gulp-imagemin-pngcrush
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id e153b6a6f0fb4eef
+20 verbose url raw /gulp-imagemin-pngcrush
+21 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-imagemin-pngcrush' ]
+22 verbose url resolved https://registry.npmjs.org/gulp-imagemin-pngcrush
+23 verbose request where is https://registry.npmjs.org/gulp-imagemin-pngcrush
+24 info trying registry request attempt 1 at 14:51:46
+25 http GET https://registry.npmjs.org/gulp-imagemin-pngcrush
+26 http 404 https://registry.npmjs.org/gulp-imagemin-pngcrush
+27 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '51',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   date: 'Tue, 28 Jul 2015 17:51:50 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-jfk1023-JFK',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1438105910.656961,VS0,VE26' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '51',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Tue, 28 Jul 2015 17:51:50 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1438105910.656961,VS0,VE26' } ]
+29 silly lockFile 1a290088-gulp-imagemin-pngcrush gulp-imagemin-pngcrush@
+30 silly lockFile 1a290088-gulp-imagemin-pngcrush gulp-imagemin-pngcrush@
+31 error 404 404 Not Found: gulp-imagemin-pngcrush
+31 error 404
+31 error 404 'gulp-imagemin-pngcrush' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'workflows'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.2.9200
+33 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "gulp-imagemin-pngcrush"
+34 error cwd c:\Users\Dimas\Desktop\workflows
+35 error node -v v0.10.33
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
